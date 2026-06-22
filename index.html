@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مدرسة زبيدة الثانوية للبنات | Zubaida Secondary School for Girls</title>
+<meta name="description" content="الموقع الرسمي لمدرسة زبيدة الثانوية للبنات - متعلم ريادي لتنمية مستدامة">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- شريط علوي -->
+<div class="top-bar">
+  <div class="container top-bar-inner">
+    <div class="top-bar-links">
+      <a href="#"><i class="fa-solid fa-envelope"></i> info@zubaida.edu.qa</a>
+      <a href="#"><i class="fa-solid fa-phone"></i> +974 4444 1234</a>
+    </div>
+    <div class="top-bar-actions">
+      <div class="social-icons">
+        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+      <button id="langToggle" class="lang-btn">EN</button>
+    </div>
+  </div>
+</div>
+
+<!-- الهيدر والتنقل -->
+<header class="main-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <div class="logo-circle"><i class="fa-solid fa-graduation-cap"></i></div>
+      <div class="brand-text">
+        <h1 data-ar="مدرسة زبيدة الثانوية للبنات" data-en="Zubaida Secondary School for Girls">مدرسة زبيدة الثانوية للبنات</h1>
+        <span data-ar="متعلم ريادي لتنمية مستدامة" data-en="A Pioneering Learner for Sustainable Development">متعلم ريادي لتنمية مستدامة</span>
+      </div>
+    </div>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+        <li><a href="#about" data-ar="عن المدرسة" data-en="About">عن المدرسة</a></li>
+        <li><a href="#achievements" data-ar="الإنجازات" data-en="Achievements">الإنجازات</a></li>
+        <li><a href="#news" data-ar="الأخبار" data-en="News">الأخبار</a></li>
+        <li><a href="#reports" data-ar="الخطط والتقارير" data-en="Plans &amp; Reports">الخطط والتقارير</a></li>
+        <li><a href="#talented" data-ar="الموهوبات" data-en="Gifted Programs">الموهوبات</a></li>
+        <li><a href="#gallery" data-ar="معرض الصور" data-en="Gallery">معرض الصور</a></li>
+        <li><a href="#stats" data-ar="الإحصاءات" data-en="Statistics">الإحصاءات</a></li>
+        <li><a href="#parents" data-ar="أولياء الأمور" data-en="Parents">أولياء الأمور</a></li>
+        <li><a href="#students" data-ar="الطالبات" data-en="Students">الطالبات</a></li>
+        <li><a href="#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="search-toggle" id="searchToggle" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+  <div class="search-box" id="searchBox">
+    <div class="container">
+      <input type="text" id="searchInput" placeholder="ابحث في الموقع..." data-ar-ph="ابحث في الموقع..." data-en-ph="Search the site...">
+      <button id="searchClose"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+  </div>
+</header>
+
+<!-- الصفحة الرئيسية -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-pattern"></div>
+  <div class="container hero-content">
+    <span class="hero-badge"><i class="fa-solid fa-star"></i> <span data-ar="دولة قطر - وزارة التربية والتعليم والتعليم العالي" data-en="State of Qatar - Ministry of Education and Higher Education">دولة قطر - وزارة التربية والتعليم والتعليم العالي</span></span>
+    <h2 data-ar="مدرسة زبيدة الثانوية للبنات" data-en="Zubaida Secondary School for Girls">مدرسة زبيدة الثانوية للبنات</h2>
+    <p class="hero-vision" data-ar="رؤيتنا: متعلم ريادي لتنمية مستدامة" data-en="Our Vision: A Pioneering Learner for Sustainable Development">رؤيتنا: متعلم ريادي لتنمية مستدامة</p>
+    <p class="hero-desc" data-ar="نسعى لإعداد جيل من الطالبات المتميزات أكاديمياً وقيمياً، قادرات على قيادة المستقبل ورفعة الوطن." data-en="We strive to prepare a generation of academically and ethically excellent students, capable of leading the future and elevating the nation.">نسعى لإعداد جيل من الطالبات المتميزات أكاديمياً وقيمياً، قادرات على قيادة المستقبل ورفعة الوطن.</p>
+    <div class="hero-buttons">
+      <a href="#about" class="btn btn-primary" data-ar="تعرف على المدرسة" data-en="About the School">تعرف على المدرسة</a>
+      <a href="#news" class="btn btn-outline" data-ar="آخر الأخبار" data-en="Latest News">آخر الأخبار</a>
+      <a href="#contact" class="btn btn-outline" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</a>
+    </div>
+    <div class="quick-links">
+      <a href="#talented"><i class="fa-solid fa-lightbulb"></i><span data-ar="برامج الموهوبات" data-en="Gifted Programs">برامج الموهوبات</span></a>
+      <a href="#reports"><i class="fa-solid fa-chart-line"></i><span data-ar="التقارير السنوية" data-en="Annual Reports">التقارير السنوية</span></a>
+      <a href="#gallery"><i class="fa-solid fa-images"></i><span data-ar="معرض الصور" data-en="Gallery">معرض الصور</span></a>
+      <a href="#parents"><i class="fa-solid fa-people-roof"></i><span data-ar="دليل ولي الأمر" data-en="Parent Guide">دليل ولي الأمر</span></a>
+    </div>
+  </div>
+  <a href="#about" class="scroll-down" aria-label="Scroll down"><i class="fa-solid fa-chevron-down"></i></a>
+</section>
+
+<!-- نبذة عن المدرسة -->
+<section class="section about" id="about">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag" data-ar="من نحن" data-en="Who We Are">من نحن</span>
+      <h2 data-ar="نبذة عن المدرسة" data-en="About the School">نبذة عن المدرسة</h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-card">
+        <div class="about-icon"><i class="fa-solid fa-landmark"></i></div>
+        <h3 data-ar="تأسيس المدرسة" data-en="Founding">تأسيس المدرسة</h3>
+        <p data-ar="تأسست مدرسة زبيدة الثانوية للبنات لتكون منارة علمية وتربوية رائدة في دولة قطر، تجمع بين الأصالة والمعاصرة في إعداد جيل واعٍ ومتميز." data-en="Zubaida Secondary School for Girls was established to be a leading educational beacon in the State of Qatar, combining tradition and modernity in preparing a conscious and distinguished generation.">تأسست مدرسة زبيدة الثانوية للبنات لتكون منارة علمية وتربوية رائدة في دولة قطر، تجمع بين الأصالة والمعاصرة في إعداد جيل واعٍ ومتميز.</p>
+      </div>
+      <div class="about-card">
+        <div class="about-icon"><i class="fa-solid fa-bullseye"></i></div>
+        <h3 data-ar="رسالة المدرسة" data-en="Mission">رسالة المدرسة</h3>
+        <p data-ar="تقديم تعليم نوعي متميز يرتقي بقدرات الطالبات الفكرية والمهارية والقيمية، ضمن بيئة تعليمية آمنة وداعمة للابتكار والتفكير الناقد." data-en="Providing distinguished quality education that elevates students' intellectual, skill, and value-based capabilities within a safe learning environment supportive of innovation and critical thinking.">تقديم تعليم نوعي متميز يرتقي بقدرات الطالبات الفكرية والمهارية والقيمية، ضمن بيئة تعليمية آمنة وداعمة للابتكار والتفكير الناقد.</p>
+      </div>
+      <div class="about-card">
+        <div class="about-icon"><i class="fa-solid fa-heart"></i></div>
+        <h3 data-ar="القيم المؤسسية" data-en="Core Values">القيم المؤسسية</h3>
+        <ul class="values-list">
+          <li data-ar="الانتماء الوطني" data-en="National Belonging">الانتماء الوطني</li>
+          <li data-ar="التميز والجودة" data-en="Excellence &amp; Quality">التميز والجودة</li>
+          <li data-ar="العمل الجماعي" data-en="Teamwork">العمل الجماعي</li>
+          <li data-ar="الإبداع والابتكار" data-en="Creativity &amp; Innovation">الإبداع والابتكار</li>
+          <li data-ar="المسؤولية والنزاهة" data-en="Responsibility &amp; Integrity">المسؤولية والنزاهة</li>
+        </ul>
+      </div>
+      <div class="about-card">
+        <div class="about-icon"><i class="fa-solid fa-sitemap"></i></div>
+        <h3 data-ar="الهيكل التنظيمي" data-en="Organizational Structure">الهيكل التنظيمي</h3>
+        <p data-ar="تضم المدرسة إدارة مدرسية، نائبة أكاديمية، نائبة لشؤون الطالبات، رؤساء أقسام أكاديمية، وفرق إرشاد وأنشطة تعمل بتكامل لخدمة العملية التعليمية." data-en="The school includes school administration, an academic deputy, a student affairs deputy, academic department heads, and guidance and activities teams working in integration to serve the educational process.">تضم المدرسة إدارة مدرسية، نائبة أكاديمية، نائبة لشؤون الطالبات، رؤساء أقسام أكاديمية، وفرق إرشاد وأنشطة تعمل بتكامل لخدمة العملية التعليمية.</p>
+      </div>
+    </div>
+
+    <div class="leaders-grid">
+      <div class="leader-card">
+        <div class="leader-avatar"><i class="fa-solid fa-user-tie"></i></div>
+        <h4 data-ar="كلمة مديرة المدرسة" data-en="Principal's Word">كلمة مديرة المدرسة</h4>
+        <p data-ar="«نؤمن بأن كل طالبة لديها القدرة على التميز والإبداع، ونعمل جميعاً كأسرة تربوية واحدة لتمكينها من تحقيق أحلامها وخدمة وطنها الحبيب قطر.»" data-en="\"We believe every student has the potential for excellence and creativity, and we work together as one educational family to empower her to achieve her dreams and serve her beloved homeland, Qatar.\"">«نؤمن بأن كل طالبة لديها القدرة على التميز والإبداع، ونعمل جميعاً كأسرة تربوية واحدة لتمكينها من تحقيق أحلامها وخدمة وطنها الحبيب قطر.»</p>
+        <span class="leader-name" data-ar="مديرة المدرسة" data-en="School Principal">مديرة المدرسة</span>
+      </div>
+      <div class="leader-card">
+        <div class="leader-avatar"><i class="fa-solid fa-user-graduate"></i></div>
+        <h4 data-ar="كلمة النائبة الأكاديمية" data-en="Academic Deputy's Word">كلمة النائبة الأكاديمية</h4>
+        <p data-ar="«نسعى من خلال خططنا الأكاديمية لتحقيق أعلى مستويات التحصيل الدراسي، عبر متابعة دقيقة وبرامج إثرائية تواكب أحدث الممارسات التعليمية.»" data-en="\"Through our academic plans, we strive to achieve the highest levels of academic achievement, through precise follow-up and enrichment programs that keep pace with the latest educational practices.\"">«نسعى من خلال خططنا الأكاديمية لتحقيق أعلى مستويات التحصيل الدراسي، عبر متابعة دقيقة وبرامج إثرائية تواكب أحدث الممارسات التعليمية.»</p>
+        <span class="leader-name" data-ar="النائبة الأكاديمية" data-en="Academic Deputy">النائبة الأكاديمية</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- لوحة الإحصائيات المتحركة -->
+<section class="section counters-section" id="stats">
+  <div class="container">
+    <div class="section-head light">
+      <span class="section-tag" data-ar="المدرسة بالأرقام" data-en="School in Numbers">المدرسة بالأرقام</span>
+      <h2 data-ar="لوحة الإحصاءات التفاعلية" data-en="Interactive Statistics">لوحة الإحصاءات التفاعلية</h2>
+    </div>
+    <div class="counters-grid">
+      <div class="counter-card"><i class="fa-solid fa-user-group"></i><span class="counter" data-target="1250">0</span><p data-ar="عدد الطالبات" data-en="Students">عدد الطالبات</p></div>
+      <div class="counter-card"><i class="fa-solid fa-chalkboard-user"></i><span class="counter" data-target="95">0</span><p data-ar="عدد المعلمات" data-en="Teachers">عدد المعلمات</p></div>
+      <div class="counter-card"><i class="fa-solid fa-briefcase"></i><span class="counter" data-target="40">0</span><p data-ar="الموظفات الإداريات" data-en="Admin Staff">الموظفات الإداريات</p></div>
+      <div class="counter-card"><i class="fa-solid fa-chart-simple"></i><span class="counter" data-target="98" data-suffix="%">0</span><p data-ar="نسبة النجاح" data-en="Success Rate">نسبة النجاح</p></div>
+      <div class="counter-card"><i class="fa-solid fa-user-graduate"></i><span class="counter" data-target="5400">0</span><p data-ar="عدد الخريجات" data-en="Graduates">عدد الخريجات</p></div>
+      <div class="counter-card"><i class="fa-solid fa-lightbulb"></i><span class="counter" data-target="62">0</span><p data-ar="البرامج والمبادرات" data-en="Programs &amp; Initiatives">البرامج والمبادرات</p></div>
+      <div class="counter-card"><i class="fa-solid fa-trophy"></i><span class="counter" data-target="87">0</span><p data-ar="الجوائز والإنجازات" data-en="Awards &amp; Achievements">الجوائز والإنجازات</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- الإنجازات والتميز -->
+<section class="section achievements" id="achievements">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag" data-ar="التميز المؤسسي" data-en="Institutional Excellence">التميز المؤسسي</span>
+      <h2 data-ar="الإنجازات والتميز" data-en="Achievements &amp; Excellence">الإنجازات والتميز</h2>
+    </div>
+    <div class="achv-grid">
+      <div class="achv-card">
+        <i class="fa-solid fa-medal"></i>
+        <h3 data-ar="الإنجازات الأكاديمية" data-en="Academic Achievements">الإنجازات الأكاديمية</h3>
+        <p data-ar="تصدّر المدرسة على مستوى المناطق التعليمية في نتائج الثانوية العامة لعدة سنوات متتالية." data-en="The school has ranked first among educational zones in general secondary results for several consecutive years.">تصدّر المدرسة على مستوى المناطق التعليمية في نتائج الثانوية العامة لعدة سنوات متتالية.</p>
+      </div>
+      <div class="achv-card">
+        <i class="fa-solid fa-square-poll-vertical"></i>
+        <h3 data-ar="نتائج الثانوية العامة" data-en="Secondary Results">نتائج الثانوية العامة</h3>
+        <p data-ar="نسبة نجاح بلغت 98% في امتحانات الثانوية العامة للعام الدراسي الأخير." data-en="A 98% pass rate in the general secondary exams for the last academic year.">نسبة نجاح بلغت 98% في امتحانات الثانوية العامة للعام الدراسي الأخير.</p>
+      </div>
+      <div class="achv-card">
+        <i class="fa-solid fa-ranking-star"></i>
+        <h3 data-ar="الطالبات المتميزات" data-en="High Achievers">الطالبات المتميزات</h3>
+        <p data-ar="أكثر من 120 طالبة حصلن على نسب تفوق 95% في الثانوية العامة." data-en="More than 120 students achieved scores above 95% in general secondary.">أكثر من 120 طالبة حصلن على نسب تفوق 95% في الثانوية العامة.</p>
+      </div>
+      <div class="achv-card">
+        <i class="fa-solid fa-award"></i>
+        <h3 data-ar="الجوائز المحلية والدولية" data-en="Local &amp; International Awards">الجوائز المحلية والدولية</h3>
+        <p data-ar="حصدت المدرسة جوائز التميز المؤسسي وجوائز في المعارض العلمية الدولية." data-en="The school has won institutional excellence awards and prizes in international science fairs.">حصدت المدرسة جوائز التميز المؤسسي وجوائز في المعارض العلمية الدولية.</p>
+      </div>
+      <div class="achv-card">
+        <i class="fa-solid fa-people-group"></i>
+        <h3 data-ar="المشاركات والمسابقات" data-en="Participations &amp; Competitions">المشاركات والمسابقات</h3>
+        <p data-ar="مشاركات فاعلة في المسابقات العلمية والثقافية والرياضية على المستوى المحلي والخليجي." data-en="Active participation in scientific, cultural, and sports competitions locally and regionally.">مشاركات فاعلة في المسابقات العلمية والثقافية والرياضية على المستوى المحلي والخليجي.</p>
+      </div>
+      <div class="achv-card">
+        <i class="fa-solid fa-certificate"></i>
+        <h3 data-ar="شهادات التميز والاعتماد" data-en="Excellence &amp; Accreditation">شهادات التميز والاعتماد</h3>
+        <p data-ar="حاصلة على شهادات اعتماد مؤسسي من هيئات تعليمية محلية ودولية مرموقة." data-en="Accredited by prestigious local and international educational bodies.">حاصلة على شهادات اعتماد مؤسسي من هيئات تعليمية محلية ودولية مرموقة.</p>
+      </div>
+    </div>
+
+    <div class="honor-board">
+      <h3><i class="fa-solid fa-star"></i> <span data-ar="لوحة الشرف" data-en="Honor Board">لوحة الشرف</span></h3>
+      <div class="honor-grid">
+        <div class="honor-item"><div class="honor-avatar"><i class="fa-solid fa-user"></i></div><span data-ar="الأولى على المدرسة - الثانوية العامة" data-en="School First Place - Secondary">الأولى على المدرسة - الثانوية العامة</span></div>
+        <div class="honor-item"><div class="honor-avatar"><i class="fa-solid fa-user"></i></div><span data-ar="الأولى على المنطقة التعليمية" data-en="First in Educational Zone">الأولى على المنطقة التعليمية</span></div>
+        <div class="honor-item"><div class="honor-avatar"><i class="fa-solid fa-user"></i></div><span data-ar="معلمة العام المتميزة" data-en="Teacher of the Year">معلمة العام المتميزة</span></div>
+        <div class="honor-item"><div class="honor-avatar"><i class="fa-solid fa-user"></i></div><span data-ar="بطلة المسابقة العلمية الدولية" data-en="International Science Fair Winner">بطلة المسابقة العلمية الدولية</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- الأخبار والإعلانات -->
+<section class="section news" id="news">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag" data-ar="جديد المدرسة" data-en="What's New">جديد المدرسة</span>
+      <h2 data-ar="الأخبار والإعلانات" data-en="News &amp; Announcements">الأخبار والإعلانات</h2>
+    </div>
+    <div class="news-grid">
+      <article class="news-card">
+        <div class="news-img"><i class="fa-solid fa-newspaper"></i></div>
+        <div class="news-body">
+          <span class="news-date">22 يونيو 2026</span>
+          <h3 data-ar="انطلاق حفل تكريم الخريجات" data-en="Graduation Ceremony Launch">انطلاق حفل تكريم الخريجات</h3>
+          <p data-ar="تحتفل المدرسة بتخريج فوج جديد من الطالبات المتميزات وسط حضور أولياء الأمور." data-en="The school celebrates the graduation of a new cohort of outstanding students.">تحتفل المدرسة بتخريج فوج جديد من الطالبات المتميزات وسط حضور أولياء الأمور.</p>
+        </div>
+      </article>
+      <article class="news-card">
+        <div class="news-img"><i class="fa-solid fa-flask"></i></div>
+        <div class="news-body">
+          <span class="news-date">15 يونيو 2026</span>
+          <h3 data-ar="فوز فريق المدرسة بالمعرض العلمي" data-en="School Team Wins Science Fair">فوز فريق المدرسة بالمعرض العلمي</h3>
+          <p data-ar="حصدت طالبات المدرسة المركز الأول في معرض المشاريع العلمية على مستوى الدولة." data-en="Students won first place in the national science projects exhibition.">حصدت طالبات المدرسة المركز الأول في معرض المشاريع العلمية على مستوى الدولة.</p>
+        </div>
+      </article>
+      <article class="news-card">
+        <div class="news-img"><i class="fa-solid fa-calendar-days"></i></div>
+        <div class="news-body">
+          <span class="news-date">10 يونيو 2026</span>
+          <h3 data-ar="فعالية اليوم الرياضي السنوي" data-en="Annual Sports Day">فعالية اليوم الرياضي السنوي</h3>
+          <p data-ar="تنظم المدرسة يومها الرياضي السنوي بمشاركة جميع المراحل الدراسية." data-en="The school organizes its annual sports day with participation from all grade levels.">تنظم المدرسة يومها الرياضي السنوي بمشاركة جميع المراحل الدراسية.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="news-side">
+      <div class="side-box">
+        <h4><i class="fa-solid fa-bullhorn"></i> <span data-ar="إعلانات مهمة" data-en="Important Announcements">إعلانات مهمة</span></h4>
+        <ul>
+          <li data-ar="بدء التسجيل للعام الدراسي الجديد" data-en="Registration for the new academic year has begun">بدء التسجيل للعام الدراسي الجديد</li>
+          <li data-ar="موعد اجتماع أولياء الأمور الفصلي" data-en="Quarterly parents meeting date announced">موعد اجتماع أولياء الأمور الفصلي</li>
+          <li data-ar="تحديث في جدول الاختبارات النهائية" data-en="Update to the final exams schedule">تحديث في جدول الاختبارات النهائية</li>
+        </ul>
+      </div>
+      <div class="side-box">
+        <h4><i class="fa-regular fa-calendar"></i> <span data-ar="التقويم المدرسي" data-en="School Calendar">التقويم المدرسي</span></h4>
+        <p data-ar="يمكنكم تحميل التقويم المدرسي الكامل لمعرفة المواعيد الدراسية والعطل والاختبارات." data-en="Download the full school calendar to view academic dates, holidays, and exam schedules.">يمكنكم تحميل التقويم المدرسي الكامل لمعرفة المواعيد الدراسية والعطل والاختبارات.</p>
+        <a href="#" class="btn btn-small" data-ar="تحميل التقويم" data-en="Download Calendar"><i class="fa-solid fa-download"></i> تحميل التقويم</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- الخطط والتقارير -->
+<section class="section reports" id="reports">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag" data-ar="الشفافية والجودة" data-en="Transparency &amp; Quality">الشفافية والجودة</span>
+      <h2 data-ar="الخطط والتقارير" data-en="Plans &amp; Reports">الخطط والتقارير</h2>
+    </div>
+    <div class="reports-grid">
+      <a href="#" class="report-card"><i class="fa-solid fa-diagram-project"></i><h4 data-ar="الخطة التشغيلية" data-en="Operational Plan">الخطة التشغيلية</h4><span data-ar="تحميل PDF" data-en="Download PDF">تحميل PDF</span></a>
+      <a href="#" class="report-card"><i class="fa-solid fa-file-contract"></i><h4 data-ar="التقارير السنوية" data-en="Annual Reports">التقارير السنوية</h4><span data-ar="تحميل PDF" data-en="Download PDF">تحميل PDF</span></a>
+      <a href="#" class="report-card"><i class="fa-solid fa-gauge-high"></i><h4 data-ar="مؤشرات الأداء KPIs" data-en="Performance KPIs">مؤشرات الأداء KPIs</h4><span data-ar="عرض المؤشرات" data-en="View Indicators">عرض المؤشرات</span></a>
+      <a href="#" class="report-card"><i class="fa-solid fa-book-open-reader"></i><h4 data-ar="نتائج التحصيل الأكاديمي" data-en="Academic Achievement Results">نتائج التحصيل الأكاديمي</h4><span data-ar="عرض النتائج" data-en="View Results">عرض النتائج</span></a>
+      <a href="#" class="report-card"><i class="fa-solid fa-arrow-trend-up"></i><h4 data-ar="تقارير التطوير المدرسي" data-en="School Development Reports">تقارير التطوير المدرسي</h4><span data-ar="تحميل PDF" data-en="Download PDF">تحميل PDF</span></a>
+    </div>
+
+    <div class="kpi-live">
+      <h3><i class="fa-solid fa-signal"></i> <span data-ar="مؤشرات الأداء المدرسي المباشرة" data-en="Live School Performance Indicators">مؤشرات الأداء المدرسي المباشرة</span></h3>
+      <div class="kpi-bars">
+        <div class="kpi-row"><span data-ar="نسبة النجاح العام" data-en="Overall Success Rate">نسبة النجاح العام</span><div class="kpi-bar"><div class="kpi-fill" data-value="98"></div></div><b>98%</b></div>
+        <div class="kpi-row"><span data-ar="رضا أولياء الأمور" data-en="Parent Satisfaction">رضا أولياء الأمور</span><div class="kpi-bar"><div class="kpi-fill" data-value="93"></div></div><b>93%</b></div>
+        <div class="kpi-row"><span data-ar="الحضور والانضباط" data-en="Attendance &amp; Discipline">الحضور والانضباط</span><div class="kpi-bar"><div class="kpi-fill" data-value="96"></div></div><b>96%</b></div>
+        <div class="kpi-row"><span data-ar="جودة الأنشطة اللاصفية" data-en="Extracurricular Quality">جودة الأنشطة اللاصفية</span><div class="kpi-bar"><div class="kpi-fill" data-value="90"></div></div><b>90%</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- الموهوبات والبرامج النوعية -->
+<section class="section talented" id="talented">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag" data-ar="رعاية المتميزات" data-en="Nurturing Excellence">رعاية المتميزات</span>
+      <h2 data-ar="الموهوبات والبرامج النوعية" data-en="Gifted &amp; Specialized Programs">الموهوبات والبرامج النوعية</h2>
+    </div>
+    <div class="talented-grid">
+      <div class="talented-card">
+        <i class="fa-solid fa-brain"></i>
+        <h3 data-ar="برامج الموهوبات" data-en="Gifted Programs">برامج الموهوبات</h3>
+        <p data-ar="برامج إثرائية متخصصة لرعاية الطالبات الموهوبات وتنمية مهاراتهن الإبداعية والبحثية." data-en="Specialized enrichment programs to nurture gifted students and develop their creative and research skills.">برامج إثرائية متخصصة لرعاية الطالبات الموهوبات وتنمية مهاراتهن الإبداعية والبحثية.</p>
+      </div>
+      <div class="talented-card">
+        <i class="fa-solid fa-fire"></i>
+        <h3 data-ar="برنامج «إنت كفو»" data-en="\"You Can Do It\" Program">برنامج «إنت كفو»</h3>
+        <p data-ar="مبادرة لتعزيز ثقة الطالبات بقدراتهن من خلال أنشطة قيادية وتحديات معرفية." data-en="An initiative to boost students' confidence through leadership activities and knowledge challenges.">مبادرة لتعزيز ثقة الطالبات بقدراتهن من خلال أنشطة قيادية وتحديات معرفية.</p>
+      </div>
+      <div class="talented-card">
+        <i class="fa-solid fa-rocket"></i>
+        <h3 data-ar="برنامج «إنت قدها»" data-en="\"You've Got It\" Program">برنامج «إنت قدها»</h3>
+        <p data-ar="برنامج تحفيزي يهدف لتطوير مهارات حل المشكلات والقيادة لدى الطالبات." data-en="A motivational program aimed at developing problem-solving and leadership skills.">برنامج تحفيزي يهدف لتطوير مهارات حل المشكلات والقيادة لدى الطالبات.</p>
+      </div>
+      <div class="talented-card">
+        <i class="fa-solid fa-seedling"></i>
+        <h3 data-ar="المبادرات الأكاديمية والتطويرية" data-en="Academic &amp; Development Initiatives">المبادرات الأكاديمية والتطويرية</h3>
+        <p data-ar="مجموعة من المبادرات المستمرة لتطوير المناهج وأساليب التعليم وتحسين بيئة التعلم." data-en="A set of ongoing initiatives to develop curricula, teaching methods, and improve the learning environment.">مجموعة من المبادرات المستمرة لتطوير المناهج وأساليب التعليم وتحسين بيئة التعلم.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- معرض الصور والفيديو -->
+<section class="section gallery" id="gallery">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag" data-ar="لحظات نفتخر بها" data-en="Moments We're Proud Of">لحظات نفتخر بها</span>
+      <h2 data-ar="معرض الصور والفيديو" data-en="Photo &amp; Video Gallery">معرض الصور والفيديو</h2>
+    </div>
+    <div class="gallery-tabs">
+      <button class="gtab active" data-filter="all" data-ar="الكل" data-en="All">الكل</button>
+      <button class="gtab" data-filter="grad" data-ar="حفلات التخرج" data-en="Graduation">حفلات التخرج</button>
+      <button class="gtab" data-filter="activities" data-ar="الأنشطة المدرسية" data-en="School Activities">الأنشطة المدرسية</button>
+      <button class="gtab" data-filter="contests" data-ar="المسابقات" data-en="Competitions">المسابقات</button>
+      <button class="gtab" data-filter="events" data-ar="المعارض والفعاليات" data-en="Exhibitions &amp; Events">المعارض والفعاليات</button>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item" data-cat="grad"><i class="fa-solid fa-graduation-cap"></i></div>
+      <div class="gallery-item" data-cat="activities"><i class="fa-solid fa-palette"></i></div>
+      <div class="gallery-item" data-cat="contests"><i class="fa-solid fa-trophy"></i></div>
+      <div class="gallery-item" data-cat="events"><i class="fa-solid fa-photo-film"></i></div>
+      <div class="gallery-item" data-cat="grad"><i class="fa-solid fa-people-group"></i></div>
+      <div class="gallery-item" data-cat="activities"><i class="fa-solid fa-futbol"></i></div>
+      <div class="gallery-item" data-cat="contests"><i class="fa-solid fa-microscope"></i></div>
+      <div class="gallery-item" data-cat="events"><i class="fa-solid fa-music"></i></div>
+    </div>
+  </div>
+</section>
+
+<!-- الإحصاءات التعليمية -->
+<section class="section edu-stats">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag" data-ar="بيانات الأداء" data-en="Performance Data">بيانات الأداء</span>
+      <h2 data-ar="الإحصاءات التعليمية" data-en="Educational Statistics">الإحصاءات التعليمية</h2>
+    </div>
+    <div class="charts-grid">
+      <div class="chart-card"><h4 data-ar="نسب النجاح عبر السنوات" data-en="Success Rate Over Years">نسب النجاح عبر السنوات</h4><canvas id="chartSuccess"></canvas></div>
+      <div class="chart-card"><h4 data-ar="التحصيل الأكاديمي حسب المراحل" data-en="Achievement by Grade Level">التحصيل الأكاديمي حسب المراحل</h4><canvas id="chartLevels"></canvas></div>
+      <div class="chart-card"><h4 data-ar="مقارنة النتائج السنوية" data-en="Annual Results Comparison">مقارنة النتائج السنوية</h4><canvas id="chartCompare"></canvas></div>
+      <div class="chart-card"><h4 data-ar="مؤشرات التحسن الأكاديمي" data-en="Academic Improvement Indicators">مؤشرات التحسن الأكاديمي</h4><canvas id="chartImprovement"></canvas></div>
+    </div>
+  </div>
+</section>
+
+<!-- أولياء الأمور -->
+<section class="section parents" id="parents">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag" data-ar="شركاء النجاح" data-en="Partners in Success">شركاء النجاح</span>
+      <h2 data-ar="أولياء الأمور" data-en="Parents">أولياء الأمور</h2>
+    </div>
+    <div class="parents-grid">
+      <a href="#" class="parent-card"><i class="fa-solid fa-file-pen"></i><span data-ar="النماذج الإلكترونية" data-en="Online Forms">النماذج الإلكترونية</span></a>
+      <a href="#" class="parent-card"><i class="fa-solid fa-square-poll-horizontal"></i><span data-ar="الاستبيانات" data-en="Surveys">الاستبيانات</span></a>
+      <a href="#" class="parent-card"><i class="fa-regular fa-calendar-check"></i><span data-ar="مواعيد الاجتماعات" data-en="Meeting Schedule">مواعيد الاجتماعات</span></a>
+      <a href="#" class="parent-card"><i class="fa-solid fa-book"></i><span data-ar="دليل ولي الأمر" data-en="Parent Guide">دليل ولي الأمر</span></a>
+      <a href="#" class="parent-card"><i class="fa-solid fa-link"></i><span data-ar="روابط الأنظمة التعليمية" data-en="Educational Systems Links">روابط الأنظمة التعليمية</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- الطالبات -->
+<section class="section students" id="students">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag" data-ar="خاص بالطالبات" data-en="For Students">خاص بالطالبات</span>
+      <h2 data-ar="قسم الطالبات" data-en="Students Section">قسم الطالبات</h2>
+    </div>
+    <div class="students-grid">
+      <a href="#" class="student-card"><i class="fa-solid fa-table-list"></i><span data-ar="الجداول الدراسية" data-en="Class Schedules">الجداول الدراسية</span></a>
+      <a href="#" class="student-card"><i class="fa-solid fa-pen-to-square"></i><span data-ar="الاختبارات" data-en="Exams">الاختبارات</span></a>
+      <a href="#" class="student-card"><i class="fa-solid fa-compass"></i><span data-ar="الإرشاد الأكاديمي" data-en="Academic Guidance">الإرشاد الأكاديمي</span></a>
+      <a href="#" class="student-card"><i class="fa-solid fa-building-columns"></i><span data-ar="الجامعات والتخصصات" data-en="Universities &amp; Majors">الجامعات والتخصصات</span></a>
+      <a href="#" class="student-card"><i class="fa-solid fa-hand-holding-dollar"></i><span data-ar="المنح والفرص التعليمية" data-en="Scholarships &amp; Opportunities">المنح والفرص التعليمية</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- التواصل -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag" data-ar="نحن هنا لمساعدتك" data-en="We're Here to Help">نحن هنا لمساعدتك</span>
+      <h2 data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</h2>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-item"><i class="fa-solid fa-location-dot"></i><div><h4 data-ar="العنوان" data-en="Address">العنوان</h4><p data-ar="الدوحة، دولة قطر" data-en="Doha, State of Qatar">الدوحة، دولة قطر</p></div></div>
+        <div class="contact-item"><i class="fa-solid fa-phone"></i><div><h4 data-ar="الهاتف" data-en="Phone">الهاتف</h4><p>+974 4444 1234</p></div></div>
+        <div class="contact-item"><i class="fa-solid fa-envelope"></i><div><h4 data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</h4><p>info@zubaida.edu.qa</p></div></div>
+        <div class="contact-item"><i class="fa-solid fa-share-nodes"></i><div><h4 data-ar="تابعونا" data-en="Follow Us">تابعونا</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div></div>
+        <div class="map-box"><i class="fa-solid fa-map-location-dot"></i><span data-ar="موقع المدرسة على الخريطة" data-en="School Location on Map">موقع المدرسة على الخريطة</span></div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <input type="text" placeholder="الاسم" data-ar-ph="الاسم" data-en-ph="Name" required>
+          <input type="email" placeholder="البريد الإلكتروني" data-ar-ph="البريد الإلكتروني" data-en-ph="Email" required>
+        </div>
+        <input type="text" placeholder="الموضوع" data-ar-ph="الموضوع" data-en-ph="Subject">
+        <textarea rows="5" placeholder="رسالتك" data-ar-ph="رسالتك" data-en-ph="Your Message" required></textarea>
+        <button type="submit" class="btn btn-primary" data-ar="إرسال الرسالة" data-en="Send Message">إرسال الرسالة</button>
+        <p class="form-success" id="formSuccess" data-ar="تم إرسال رسالتك بنجاح، سنتواصل معكم قريباً." data-en="Your message has been sent successfully. We will contact you soon."></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- الفوتر -->
+<footer class="main-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="brand">
+        <div class="logo-circle small"><i class="fa-solid fa-graduation-cap"></i></div>
+        <h3 data-ar="مدرسة زبيدة الثانوية للبنات" data-en="Zubaida Secondary School for Girls">مدرسة زبيدة الثانوية للبنات</h3>
+      </div>
+      <p data-ar="متعلم ريادي لتنمية مستدامة" data-en="A Pioneering Learner for Sustainable Development">متعلم ريادي لتنمية مستدامة</p>
+    </div>
+    <div class="footer-links">
+      <h4 data-ar="روابط سريعة" data-en="Quick Links">روابط سريعة</h4>
+      <a href="#about" data-ar="عن المدرسة" data-en="About">عن المدرسة</a>
+      <a href="#achievements" data-ar="الإنجازات" data-en="Achievements">الإنجازات</a>
+      <a href="#reports" data-ar="الخطط والتقارير" data-en="Plans &amp; Reports">الخطط والتقارير</a>
+      <a href="#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a>
+    </div>
+    <div class="footer-links">
+      <h4 data-ar="للطالبات وأولياء الأمور" data-en="For Students &amp; Parents">للطالبات وأولياء الأمور</h4>
+      <a href="#students" data-ar="قسم الطالبات" data-en="Students Section">قسم الطالبات</a>
+      <a href="#parents" data-ar="أولياء الأمور" data-en="Parents">أولياء الأمور</a>
+      <a href="#talented" data-ar="الموهوبات" data-en="Gifted Programs">الموهوبات</a>
+    </div>
+    <div class="footer-visitors">
+      <h4 data-ar="عداد الزوار" data-en="Visitor Counter">عداد الزوار</h4>
+      <div class="visitor-counter"><i class="fa-solid fa-eye"></i> <span id="visitorCount">0</span></div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 <span data-ar="مدرسة زبيدة الثانوية للبنات. جميع الحقوق محفوظة." data-en="Zubaida Secondary School for Girls. All rights reserved.">مدرسة زبيدة الثانوية للبنات. جميع الحقوق محفوظة.</span></p>
+  </div>
+</footer>
+
+<button id="backToTop" aria-label="Back to top"><i class="fa-solid fa-chevron-up"></i></button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
